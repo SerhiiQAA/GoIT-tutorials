@@ -1,10 +1,10 @@
 package main.java;
 
 public class HelloWorld {
-    public static void main(String[] args) {
+    public static void main(Stringa[] args) {
         System.out.println("Hello GoIT world!");
         System.out.println("I`m Serhi, I`m QA Engineer. And I`m really love testing field)");
-        String hello = "Hello";
+        java.lang.String hello = "Hello";
         boolean coolToday = true;
         char a2 = 'a';
         short a3 = 32000;
@@ -15,8 +15,8 @@ public class HelloWorld {
         double a8 = 12.000;
 
         System.out.println(a7);
-        String sf = "sdfsdf";
-        System.out.println(sf);
+        java.lang.String qwqw = "sdfsdf";
+        System.out.println(hello);
         int someChar = 'D';
         System.out.println(someChar);
 

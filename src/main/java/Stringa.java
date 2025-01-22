@@ -1,6 +1,6 @@
 package main.java;
 
-public class String {
+public class Stringa {
     public static void main(java.lang.String[] args) {
         java.lang.String a = "Hellow Serhii!";
         System.out.println(a.equals("Hellow Serhii!")); // true

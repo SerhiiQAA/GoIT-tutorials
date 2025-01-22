@@ -1,15 +1,15 @@
 package main.java;
 
-public class Array {
+public class Arrays {
     public static void main(String[] args) {
 
         String[] name = new String[34];
-        int[] arr = new int[100];
-
         name[3] = "Serhii3";
         name[5] = "Serhii5";
         name[4] = "Serhii4";
 
+
+        int[] arr = new int[100];
         System.out.println(name[5]);
         System.out.println(name.length);
 
