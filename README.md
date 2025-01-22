@@ -1,1 +1,1 @@
-# GoIT-tutorials
+# Java practice course
