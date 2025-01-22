@@ -1,11 +1,11 @@
 package main.java;
 
-public class Str {
-    public static void main(String[] args) {
-        String a = "Hellow Serhii!";
+public class String {
+    public static void main(java.lang.String[] args) {
+        java.lang.String a = "Hellow Serhii!";
         System.out.println(a.equals("Hellow Serhii!")); // true
 
-        String a2 = "Hellow";
+        java.lang.String a2 = "Hellow";
         System.out.println(a.equals(a2)); //false
         System.out.println();
 
@@ -34,17 +34,17 @@ public class Str {
 
         a = "Hellow world!";
         System.out.println();
-        String[] arr = a.split("");
+        java.lang.String[] arr = a.split("");
         System.out.println(arr[7]); //w
         System.out.println();
 
-        String str = "My name %s! It`s %d years old!";
+        java.lang.String str = "My name %s! It`s %d years old!";
         int age = 40;
-        String name = "Serhii";
-        System.out.println(String.format(str, name, age));
+        java.lang.String name = "Serhii";
+        System.out.println(java.lang.String.format(str, name, age));
         System.out.println();
 
-        String age2 = "30";
+        java.lang.String age2 = "30";
         int num = Integer.parseInt(age2);
         System.out.println(num * 3);
         System.out.println();
@@ -57,11 +57,11 @@ public class Str {
         System.out.println(a.substring(7, a.length() -2)); // my frien
         System.out.println();
 
-        String a1 = "Hellow ";
+        java.lang.String a1 = "Hellow ";
         a2 = "world";
-        String a3 = "! ";
-        String a4 = "I`m fun with coding!";
-        String res;
+        java.lang.String a3 = "! ";
+        java.lang.String a4 = "I`m fun with coding!";
+        java.lang.String res;
         res = a1 + a2 + a3 + a4;
         System.out.println(res);
         System.out.println();
