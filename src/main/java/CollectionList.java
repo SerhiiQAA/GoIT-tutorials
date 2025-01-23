@@ -3,7 +3,7 @@ package main.java;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListCollection {
+public class CollectionList {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
         list.add(5);
@@ -72,5 +72,8 @@ public class ListCollection {
 
         list2.removeAll(list);
         System.out.println(list2.containsAll(list));
+        System.out.println();
+
+
     }
 }
