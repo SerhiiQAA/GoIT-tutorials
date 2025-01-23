@@ -19,6 +19,7 @@ public class Conditionals {
             System.out.println("Nothing");
         }
         System.out.println();
+
         i = 91;
         if (i > 50) {
             System.out.println("i > 50");
@@ -35,7 +36,6 @@ public class Conditionals {
         System.out.println();
 
         i = 2;
-
         switch (i){
             case 1:
                 System.out.println("Then number is 1");
@@ -48,10 +48,25 @@ public class Conditionals {
                 break;
             default:
                 System.out.println("I don`t know the number!");
-
         }
 
+        System.out.println();
 
-        System.out.println("End. To be continued with Serhii!");
+        i = 950;
+        switch (i){
+            case 100:
+                System.out.println("100");
+                break;
+            case 50:
+                System.out.println("50");
+                break;
+            case 1:
+                System.out.println("1");
+                break;
+            default:
+                System.out.println("Hmmmmmmmmmmmmmmmmmmmm! I don`t know!");
+        }
+
+        System.out.println("End! To be continued with Serhii!");
     }
 }

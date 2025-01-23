@@ -1,7 +1,7 @@
 package main.java;
 
 public class LogicOperations {
-    public static void main(Stringa[] args) {
+    public static void main(String[] args) {
         int a;
         a = 10;
         a = 20;
